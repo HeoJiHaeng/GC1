@@ -1,0 +1,26 @@
+package com.example.myapplication
+
+class Fastfood {
+
+    fun main() {
+
+    }
+    String main = menu
+    String menu = screen
+    int num def = program end
+    String menuchoice = calculate
+    int wrongnumber = null
+    String basket make = end
+
+    if when = String Chickenburger {
+        run answer = Chickenburger
+                while = String Longchickenburger
+                        run answer = Chickenburger
+        }else{
+        if = String Barbaecuchickenburger
+                run answer = Chickenburger{
+        }else{
+            if = String Chickinkingburger
+        }   run answer = Chickenburger{
+
+        }
