@@ -5,12 +5,12 @@ class Fastfood {
     fun main() {
 
     }
-    String main = menu
-    String menu = screen
-    int num def = program end
-    String menuchoice = calculate
+    String main = menu()
+    String menu = screen()
+    int num def = programend()
+    String menuchoice = calculate()
     int wrongnumber = null
-    String basket make = end
+    String basketmake = end
 
     if when = String Chickenburger {
         run answer = Chickenburger
