@@ -1,0 +1,63 @@
+package Kiosk
+
+open class : Chickenburger() {
+    open var bun = "basic bun"
+    open var patty = "chicken patty"
+    open var vegetable = "tomato, lettuce, onion, cucumber"
+    open var sauce = "none"
+
+    open fun displayInfo() {
+        println("번   : ${bun}\n"+
+                "패티 : ${patty}\n"+
+                "야채 : ${vegetable}\n"+
+                "소스 : ${sauce}\n")
+    }
+}
+
+class : Basicchickenburger() {
+    override var sauce = "ketchup"
+
+    override fun displayInfo() {
+        println("번   : ${bun}\n"+
+                "패티 : ${patty}\n"+
+                "야채 : ${vegetable}\n"+
+                "소스 : ${sauce}\n")
+    }
+}
+
+class : Longchickenburger() {
+    override var vegetable = "lettuce, onion"
+    override var sauce = "mayonnaise sauce"
+
+    override fun displayInfo() {
+        println("번   : ${bun}\n"+
+                "패티 : ${patty}\n"+
+                "야채 : ${vegetable}\n"+
+                "소스 : ${sauce}\n")
+    }
+}
+
+class : Barbaquechickenburger() {
+    override var patty = "chicken patty, bacon"
+    override var sauce = "deriyakki sauce"
+
+    override fun displayInfo() {
+        println("번   : ${bun}\n"+
+                "패티 : ${patty}\n"+
+                "야채 : ${vegetable}\n"+
+                "소스 : ${sauce}\n")
+    }
+}
+
+class : Kingchickenburger() {
+    override var bun = "egg bun"
+    override var patty = "cube steak and chicken patty"
+    override var sauce = "mayonnaise sauce"
+
+    override fun displayInfo() {
+        println("번   : ${bun}\n"+
+                "패티 : ${patty}\n"+
+                "야채 : ${vegetable}\n"+
+                "소스 : ${sauce}\n")
+    }
+}
